@@ -32,7 +32,7 @@ export const Article = async ({ project }) => {
         <article className="p-4 md:p-8">
             <div className="flex justify-between gap-2 items-center">
                 <span className="text-xs duration-1000 text-zinc-200 group-hover:text-white group-hover:border-zinc-200 drop-shadow-orange">
-                    {/* <Image src={`https://raw.githubusercontent.com/jirihofman/${project.name}/${project.default_branch}/public/favicon.ico`} alt={project.name} width={24} height={24} placeholder="blur" /> */}
+                    {/* <Image src={`https://raw.githubusercontent.com/reblox01/${project.name}/${project.default_branch}/public/favicon.ico`} alt={project.name} width={24} height={24} placeholder="blur" /> */}
                     <time dateTime={new Date(project.created_at).toISOString()} title="Created">
                         {new Date(project.created_at).toISOString().substring(0, 10)}
                     </time>
