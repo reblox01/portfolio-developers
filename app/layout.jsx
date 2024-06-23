@@ -26,13 +26,7 @@ export const metadata = {
 	},
 	icons: [
 		{
-			url: "/favicon.svg",
-			rel: "icon",
-			sizes: "any",
-			type: "image/svg+xml",
-		},
-		{
-			url: "/favicon.png",
+			url: "/favicon.ico",
 			rel: "icon",
 			sizes: "any",
 			type: "image/png",
